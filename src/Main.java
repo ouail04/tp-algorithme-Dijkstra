@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Graphe graphe = new Graphe();
+        System.out.println(graphe.getSommetPlusPriorite());
     }
 }
